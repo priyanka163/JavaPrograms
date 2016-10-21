@@ -7,7 +7,7 @@ class Anagramm{
 private static boolean isAnagram(String str1,String str2){
 
 if(str1.length()!=str2.length()){
-	return false;
+return false;
  } 
 //sort characters
 

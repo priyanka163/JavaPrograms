@@ -1,0 +1,31 @@
+
+
+package com.bridgelabz.programs;
+import com.bridgelabz.util.Utility;
+
+public class BankingQueueNode{
+	int data;
+	BankingQueueNode link;
+
+
+
+
+	public BankingQueueNode(int data,BankingQueueNode node){
+		this.data = data;
+		link = node;
+	}
+	public void setData(int data){
+		this.data = data;
+	}
+	public int getData(){
+		return data;
+	}
+
+	public void setNode(BankingQueueNode node){
+		link = node;
+	}
+	public BankingQueueNode getNode(){
+		return link;
+	}
+}
+
